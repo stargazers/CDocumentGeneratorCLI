@@ -101,7 +101,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 		// ***********************************************
 		public function generateDocument()
 		{
-			$cHTMLDocGen = new CHTMLDocumentGenerator( $this->argc[1] );
+			$cHTMLDocGen = new CHTMLDocumentGenerator( $this->argv[1] );
 
 			if( $this->CSS_file != '' )
 				$cHTMLDocGen->setCSSFile( $this->CSS_file );
